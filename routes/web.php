@@ -27,3 +27,4 @@ Route::middleware('auth')->group(function () {
     Route::get('/add/post', 'PostController@create')->name('add.post');
     Route::Post('/add/post', 'PostController@store')->name('add.post');
 });
+Auth::routes();
