@@ -5,7 +5,7 @@
         <div class="col-md-6">
             <div class="card">
                
-                <div class="card-header"> New Post</div>
+                <div class="card-header"> Post</div>
                 <card-body>
                     
                     <form action="{{ route('add.post') }}" method="POST" autocomplete="off" enctype="multipart/form-data">
